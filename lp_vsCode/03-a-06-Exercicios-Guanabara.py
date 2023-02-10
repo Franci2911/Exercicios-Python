@@ -1,0 +1,10 @@
+v1 = input('Digite algo: ')
+print(f'o tipo primitivo é: {type(v1)}')
+print(f'é uma letra: {v1.isalpha()}')
+print(f'pode ser decimal: {v1.isdecimal()}')
+print(f'pode ser uma letra ou um numero: {v1.isalnum()}')
+print(f'é minuscula: {v1.islower()}')
+print(f'é maiscula: {v1.isupper()}')
+print(f'pode ser um numero: {v1.isnumeric()}')
+print(f'começa espaço{v1.isspace()}')
+
